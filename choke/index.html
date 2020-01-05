@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <meta chartset="UTF-8">
 <head>
-  <title>WE INVITE YOU TO FOLLOW ALONG</title>
-<h>INPUT THE PASSCODE</h>
+  <title>CHOKE YOURSELF TO SLEEP</title>
+<h1>INPUT THE PASSCODE</h1>
 </head>
 <body>
 <form>
-PASSCODE:<input type='text' id='passcode'><br>
+<br><br>PASSCODE: <input type='text' id='passcode'><br>
 <input type='submit' value='Submit' onclick='validate()'>
 </form>
 </body>
@@ -15,9 +15,9 @@ function validate() {
 real="A6234421CB47B1668CB1959D12680E12"
 attempt=document.getElementById("passcode").value
 if (real === attempt) {
-return window.location.href = "https://idkhowscav.github.io/climb/index.html"
+return window.location.href = "https://idkhowscav.github.io/climb"
 } else {
-return document.getElementById("passcode").value = "INCORRECT. TRY AGAIN.";
+return document.getElementById("passcode").value = attempt";
 }
 }
 </script>
